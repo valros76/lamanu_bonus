@@ -1,9 +1,32 @@
+*{
+   -webkit-font-smoothing:subpixel-antialiased;
+   transform:scale(0);
+   opacity:0;
+   animation-name:revealed;
+   animation-duration:1.2s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes revealed{
+   0%{
+      transform:scale(0);
+      opacity:0;
+   }100%{
+      transform:scale(1);
+      opacity:1;
+   }
+}
+
 .socials-btn{
    width:50px;
    height:50px;
    display:flex;
    justify-content:stretch;
    align-items:stretch;
+}.socials-btn:hover{
+   background:linear-gradient(to left,#FF464C,#FF426C);
 }
 
 .socials-icon{
@@ -13,6 +36,9 @@
    justify-content:center;
    align-items:center;
    font-size:34px;
+   object-fit:scale-down;
+   object-position:center;
+   animation-duration:1.9s;
 }
 
 .bg-smooth-pink{
