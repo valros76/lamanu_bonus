@@ -13,7 +13,7 @@
    0%{
       transform:translateY(-100%) scale(0);
       opacity:0;
-      filter:invert(0.2) hue-rotate(25deg);
+      filter:invert(0.2) hue-rotate(25deg));
    }30%{
       transform:translateY(-25%) scale(0.8);
       opacity:0.8;
