@@ -19,8 +19,8 @@ body{
 .col {
   min-height: 150px;
 }
-.col{
-  border:2px solid #fff;
+.bordered{
+  border:3px solid #fff;
 }
 
 .span-sm-2,
