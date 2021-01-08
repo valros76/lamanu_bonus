@@ -15,6 +15,22 @@ body{
   filter: contrast(0.9);
 }
 
+.bg-orange{
+   background-color:#FFC8BA;
+}
+
+.bg-blue{
+   background-color:#B5D8EB;
+}
+
+.bg-green{
+   background-color:#93DFB8;
+}
+
+.bg-pink{
+   background-color:#FFBDD8;
+}
+
 .row,
 .col {
   min-height: 150px;
@@ -23,16 +39,24 @@ body{
   border:3px solid #fff;
 }
 
-.span-sm-2,
-.span-md-2,
+.span-sm-2{
+   min-height:30px;
+}
+.span-md-2{
+   min-height:40px;
+}
 .span-lg-2{
    min-height:50px;
 }
 
-.span-sm-3,
-.span-md-3,
+.span-sm-3{
+   min-height:125px;
+}
+.span-md-3{
+   min-height:200px;
+}
 .span-lg-3{
-   min-height:100px;
+   min-height:200px;
 }
 
 .grid-container {
@@ -129,11 +153,15 @@ body{
       "mel-17 mel-17 mel-17 mel-18 mel-18 mel-18"
       "mel-17 mel-17 mel-17 mel-18 mel-18 mel-18";
   }
+  .row,
+  .col {
+    min-height: 100px;
+  }
   .span-md-2{
-     min-height:200px;
+   min-height:50px;
   }
   .span-md-3{
-     min-height:250px;
+   min-height:200px;
   }
 }
 @media all and (max-width: 768px) {
@@ -174,10 +202,14 @@ body{
        "mel-18 mel-18 mel-18"
        "mel-18 mel-18 mel-18";
    }
+   .row,
+   .col {
+     min-height: 75px;
+   }
    .span-sm-2{
-      min-height:200px;
+      min-height:50px;
    }
    .span-sm-3{
-      min-height:250px;
+      min-height:125px;
    }
 }
